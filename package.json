@@ -4,7 +4,7 @@
   "description": "SmartReview AI — E-Commerce Review & Aspect-Based Sentiment Analysis Platform",
   "private": true,
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --include=dev --prefix frontend && npm run build --prefix frontend",
     "start": "node backend/server.js",
     "seed": "node backend/seed_modern_catalog.js"
   },
@@ -23,4 +23,3 @@
   "author": "Debasheesh Tripathy",
   "license": "Apache-2.0"
 }
-

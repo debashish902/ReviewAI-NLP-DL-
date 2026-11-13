@@ -16,7 +16,8 @@ app.use(express.json());
 app.get("/api/health", (req, res) => {
     res.json({
         success: true,
-        message: "🚀 SmartReview AI Backend is Running Successfully!"
+        message: "🚀 SmartReview AI Backend is Running Successfully!",
+        status: "online"
     });
 });
 
@@ -29,13 +30,14 @@ app.use("/api/products", productRoutes);
 const frontendDistPath = path.resolve(__dirname, "../frontend/dist");
 app.use(express.static(frontendDistPath));
 
-app.get("*", (req, res) => {
+// SPA fallback handler (Express 5 compatible)
+app.use((req, res) => {
     const indexPath = path.join(frontendDistPath, "index.html");
     res.sendFile(indexPath, (err) => {
         if (err) {
-            res.json({
-                success: true,
-                message: "🚀 SmartReview AI Backend is Running Successfully!",
+            res.status(404).json({
+                success: false,
+                message: "Route not found",
                 status: "online"
             });
         }

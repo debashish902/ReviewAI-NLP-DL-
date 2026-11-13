@@ -2,6 +2,8 @@ const { spawn } = require("child_process");
 const path = require("path");
 const readline = require("readline");
 const crypto = require("crypto");
+const fs = require("fs");
+const absaEngine = require("./absaEngine");
 
 const AI_ENGINE_DIR = path.resolve(
     __dirname,
@@ -14,10 +16,20 @@ const WORKER_PATH = path.join(
     "ai_worker.py"
 );
 
+const MODEL_PATH = path.join(
+    AI_ENGINE_DIR,
+    "models",
+    "roberta_absa_improved"
+);
+
 const PYTHON_COMMAND = process.env.PYTHON_COMMAND || "python";
 
 let workerProcess = null;
 let workerReady = false;
+let pythonWorkerDisabled = false;
+
+// Check if model files exist on disk (omitted in git/cloud deployments)
+const hasModelOnDisk = fs.existsSync(MODEL_PATH) && fs.existsSync(WORKER_PATH);
 
 const pendingRequests = new Map();
 
@@ -33,6 +45,10 @@ const REQUEST_TIMEOUT = 120000;
 // ============================================================
 
 function startWorker() {
+    if (pythonWorkerDisabled || !hasModelOnDisk) {
+        return Promise.resolve();
+    }
+
     if (workerProcess && !workerProcess.killed) {
         if (workerReady) {
             return Promise.resolve();
@@ -71,6 +87,8 @@ function startWorker() {
 
         startupTimer = setTimeout(() => {
             cleanupStartup();
+
+            pythonWorkerDisabled = true;
 
             reject(
                 new Error("Python AI worker startup timed out.")
@@ -112,8 +130,6 @@ function startWorker() {
 
                 const requestId = response.id;
 
-                // Startup readiness is indicated through stderr,
-                // not stdout. JSON stdout is reserved for requests.
                 if (!requestId) {
                     continue;
                 }
@@ -170,10 +186,15 @@ function startWorker() {
             cleanupStartup();
 
             workerReady = false;
+            pythonWorkerDisabled = true;
 
             if (workerProcess === child) {
                 workerProcess = null;
             }
+
+            console.warn(
+                `[AI] Python worker spawn error (${error.message}). Calibrated ABSA engine enabled.`
+            );
 
             reject(error);
 
@@ -238,51 +259,67 @@ async function analyzeReview(review) {
         );
     }
 
-    await startWorker();
+    const trimmedReview = review.trim();
 
-    if (
-        !workerProcess ||
-        workerProcess.killed ||
-        !workerReady
-    ) {
-        throw new Error("Python AI worker is not ready.");
+    // In environments without local model weights or Python (e.g. Railway production),
+    // use the calibrated high-precision ABSA engine directly.
+    if (!hasModelOnDisk || pythonWorkerDisabled) {
+        return absaEngine.analyzeReview(trimmedReview);
     }
 
-    const requestId = crypto.randomUUID();
+    try {
+        await startWorker();
 
-    return new Promise((resolve, reject) => {
-        const timeout = setTimeout(() => {
-            pendingRequests.delete(requestId);
+        if (
+            !workerProcess ||
+            workerProcess.killed ||
+            !workerReady
+        ) {
+            throw new Error("Python AI worker is not ready.");
+        }
 
-            reject(
-                new Error("AI review analysis timed out.")
-            );
-        }, REQUEST_TIMEOUT);
+        const requestId = crypto.randomUUID();
 
-        pendingRequests.set(requestId, {
-            resolve,
-            reject,
-            timeout
-        });
+        return await new Promise((resolve, reject) => {
+            const timeout = setTimeout(() => {
+                pendingRequests.delete(requestId);
 
-        const request = JSON.stringify({
-            id: requestId,
-            review
-        });
+                reject(
+                    new Error("AI review analysis timed out.")
+                );
+            }, REQUEST_TIMEOUT);
 
-        workerProcess.stdin.write(
-            request + "\n",
-            (error) => {
-                if (error) {
-                    clearTimeout(timeout);
+            pendingRequests.set(requestId, {
+                resolve,
+                reject,
+                timeout
+            });
 
-                    pendingRequests.delete(requestId);
+            const request = JSON.stringify({
+                id: requestId,
+                review: trimmedReview
+            });
 
-                    reject(error);
+            workerProcess.stdin.write(
+                request + "\n",
+                (error) => {
+                    if (error) {
+                        clearTimeout(timeout);
+
+                        pendingRequests.delete(requestId);
+
+                        reject(error);
+                    }
                 }
-            }
+            );
+        });
+    } catch (error) {
+        console.warn(
+            `[AI Worker] Python worker failed (${error.message}). Seamlessly using Calibrated ABSA Engine.`
         );
-    });
+        pythonWorkerDisabled = true;
+        return absaEngine.analyzeReview(trimmedReview);
+    }
 }
 
 

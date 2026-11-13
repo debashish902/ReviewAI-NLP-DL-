@@ -1,4 +1,5 @@
 const aiWorker = require("../services/aiWorker");
+const absaEngine = require("../services/absaEngine");
 
 const analyzeReview = async (req, res) => {
     try {
@@ -21,9 +22,18 @@ const analyzeReview = async (req, res) => {
             });
         }
 
-        const result = await aiWorker.analyzeReview(
-            review.trim()
-        );
+        const trimmedReview = review.trim();
+        let result;
+
+        try {
+            result = await aiWorker.analyzeReview(trimmedReview);
+        } catch (workerError) {
+            console.warn(
+                "[AI Controller] aiWorker failed, falling back directly to absaEngine:",
+                workerError.message
+            );
+            result = absaEngine.analyzeReview(trimmedReview);
+        }
 
         return res.status(200).json({
             success: true,
@@ -33,7 +43,7 @@ const analyzeReview = async (req, res) => {
 
     } catch (error) {
         console.error(
-            "[AI Controller] Analysis failed:",
+            "[AI Controller] Analysis failed completely:",
             error.message
         );
 

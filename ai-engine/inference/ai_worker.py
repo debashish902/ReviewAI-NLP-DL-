@@ -58,7 +58,12 @@ print(
 )
 
 
-for raw_line in sys.stdin:
+while True:
+
+    raw_line = sys.stdin.readline()
+
+    if not raw_line:
+        break
 
     raw_line = raw_line.strip()
 

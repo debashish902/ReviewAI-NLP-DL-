@@ -1,0 +1,29 @@
+SMARTREVIEW AI - EXPERIMENT COMPARISON
+============================================================
+
+Experiment: Baseline RoBERTa
+Accuracy: 48.00%
+Macro F1: 52.79%
+Description: Pretrained sentiment model evaluated on human-validated data
+
+Experiment: Human-only RoBERTa
+Accuracy: 68.89%
+Macro F1: 27.71%
+Description: RoBERTa fine-tuned using manually labeled training data
+
+Experiment: Class-weighted RoBERTa
+Accuracy: 68.89%
+Macro F1: 37.14%
+Description: Human-supervised RoBERTa with class-weighted training
+
+Experiment: Hybrid Human + Pseudo RoBERTa
+Accuracy: 57.78%
+Macro F1: 51.63%
+Description: Human + pseudo-labeled training with higher human sample weight
+
+============================================================
+HIGHEST TEST ACCURACY
+Human-only RoBERTa - 68.89%
+
+HIGHEST TEST MACRO F1
+Baseline RoBERTa - 52.79%

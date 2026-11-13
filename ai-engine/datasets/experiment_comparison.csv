@@ -1,0 +1,5 @@
+experiment,accuracy,macro_f1,description,accuracy_percent,macro_f1_percent
+Baseline RoBERTa,0.48,0.5279,Pretrained sentiment model evaluated on human-validated data,48.0,52.790000000000006
+Human-only RoBERTa,0.6889,0.2771,RoBERTa fine-tuned using manually labeled training data,68.89,27.71
+Class-weighted RoBERTa,0.6889,0.3714,Human-supervised RoBERTa with class-weighted training,68.89,37.14
+Hybrid Human + Pseudo RoBERTa,0.5778,0.5163,Human + pseudo-labeled training with higher human sample weight,57.78,51.629999999999995

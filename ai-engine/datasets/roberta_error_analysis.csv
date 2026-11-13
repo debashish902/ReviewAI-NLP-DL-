@@ -1,0 +1,152 @@
+sentence,aspect,validated_sentiment,predicted_sentiment,confidence,error_type
+"That's bad enough, but if it's going to hog the connection, it could at least do it without the drag in buffering.",connection,neutral,negative,0.9959242343902588,neutral -> negative
+The case does have an automatic wake-sleep feature (a magnet inside the cover).,case,negative,neutral,0.9992471933364868,negative -> neutral
+I purchased this cable as a replacement for a defective one left by the cable guy that was delivering too-soft audio.,sound,neutral,negative,0.9983141422271729,neutral -> negative
+What I didn't like is that there apparently is no software switching between computers; you have to use the manual push buttons.,software,positive,negative,0.998459815979004,positive -> negative
+No more lagging connection.,connection,positive,neutral,0.9308868050575256,positive -> neutral
+(The Tap has a chargeable battery.),battery,positive,neutral,0.983646810054779,positive -> neutral
+Am using in a Lumix Gh5 camera.,camera,positive,neutral,0.9991932511329652,positive -> neutral
+The case is a very hard plastic.,case,negative,neutral,0.7948437929153442,negative -> neutral
+"If there were any downside at all, it would be that I honestly wish more vendors would make these keyboards with lit backgrounds (so it is easier to see the keys in poorly lit/morning hours).",keyboard,positive,negative,0.944518744945526,positive -> negative
+My daughter's laptop case has been broken for a while.,case,positive,negative,0.9985255599021912,positive -> negative
+Just wish the cord was a little longer.,cable,positive,neutral,0.9973257780075072,positive -> neutral
+"My only complaint is that the case lids are made of a hard, thin plastic that cracks easily.",case,positive,negative,0.9985461235046388,positive -> negative
+I might add the one negative is the sound is not very loud with all the way up and even with hearing aids or with head set on,sound,positive,negative,0.9985449314117432,positive -> negative
+This severely limits the functionality of the device since the on board battery last barely 30 minutes.,battery,neutral,negative,0.9985892176628112,neutral -> negative
+This isn’t going to sound like a Blau punk deluxe stereo-,sound,positive,negative,0.8662028312683105,positive -> negative
+"My only gripe is the power cord doesn't pack into the suitcase, making you have to carry it separately.",cable,positive,negative,0.998570680618286,positive -> negative
+used this cable to connect office wide screen tv to my computer.,display,positive,neutral,0.9992048144340516,positive -> neutral
+"I found these to still be a little large for my ears, at least weight wise, and I am not comfortable when walking with them in (they are fine if I am sitting in my house listening to music, just not wearing them around in my ears when up and active).",weight,positive,negative,0.9986324906349182,positive -> negative
+Have to keep turning it to get a decent sound.,sound,negative,neutral,0.997638463973999,negative -> neutral
+"These ULTRA THIN LAPTOP CAMERA COVER SLIDES (for Laptop, PC, MacBook, iMac, Computer, iPad, Spot, Tablet) are very expensive (about $11 on Amazon for 3 slides) for what they are.",case,neutral,negative,0.9985646605491638,neutral -> negative
+There is no operating or setup manual with this camera; only a website listed in a very thin brochure.,camera,neutral,negative,0.994936466217041,neutral -> negative
+So much so that you never want to use the camera.,camera,positive,negative,0.997725546360016,positive -> negative
+"It's my understanding that you can use specialized software to convert .mp4 files (probably illegally) to file formats that can be streamed, but .mp4 files won't play if the ones that work with computer media players are simply copied to the Seagate device.",software,positive,neutral,0.5794108510017395,positive -> neutral
+"I thought a 4 foot cable on this was a little overkill, but after putting it into play on my desk, I found that it let me get my scanner and charging cables completely past my work area and still give me extra ports for easy access to add a webcam, microphone or flash drive.",cable,positive,neutral,0.9982894062995912,positive -> neutral
+The fact that the case extends beyond the edges of the tablet gives a little bit of protection from short drops.,case,neutral,positive,0.7355779409408569,neutral -> positive
+but it's just I can't charge it while doing that.,charging,positive,negative,0.9984121322631836,positive -> negative
+Then this will truly be the last outdoor reolink camera that I will ever purchase.,camera,negative,positive,0.9512937068939208,negative -> positive
+A set up such as this can save you in a tight spot when you are caught without a cord to charge a dying device.. especially on the go!,charging,positive,neutral,0.7182946801185608,positive -> neutral
+The phone can control all of the printer functions through the HPSmart display--it just takes a tap on a virtual button.,display,positive,neutral,0.9992289543151855,positive -> neutral
+"To fully charge the batteries, you place the case face up in a well-lit room for about six hours.",charging,positive,neutral,0.9989888072013856,positive -> neutral
+"The stands themselves are flat, microfiber-covered pieces that match the rest of the cover's interior.",case,positive,neutral,0.9991779923439026,positive -> neutral
+They charge my iPhone as well as the more expensive Apple products.,charging,positive,neutral,0.9990968704223632,positive -> neutral
+The same one we use to charge our cell phones!),charging,positive,neutral,0.9991657733917236,positive -> neutral
+The correct Samsung app has the same icon as the one shown on your TV screen.,display,positive,neutral,0.9992030262947084,positive -> neutral
+"If I connected the cable to the headset port, the sound only came out as a whisper.",sound,negative,neutral,0.999298930168152,negative -> neutral
+"The display can also be detached and reattached facing backwards, so that the keyboard becomes a display stand.",display,positive,neutral,0.9991883635520936,positive -> neutral
+I'll update for durability later.,durability,positive,neutral,0.9991932511329652,positive -> neutral
+I was really excited to get the new hdx 8.9&#34; kindle and a new red leather case.,case,neutral,positive,0.9993230104446412,neutral -> positive
+"Once she figured out how to utilize it, she wasn't sure if it was really helpful or not as far as steadying her camera.",camera,positive,neutral,0.9767974019050598,positive -> neutral
+"Lenovo ThinkPad T460 in neoprene case, keys, 1 1/2&#34; loose-leaf binder, yearly planner, scientific calculator, computer power cord, small cosmetic case, water bottle, soft-sided sunglasses case, large cosmetic bag which houses pens/pencils/highlighters/usb drive/mouse/headphones and wallet.",keyboard,positive,neutral,0.999163031578064,positive -> neutral
+I can plug a different HDMI cable (way 'cheaper') and don't have any problems at all.,cable,negative,positive,0.9991865754127502,negative -> positive
+The thin wire makes them feel cheap and the kinks in the wire from being wrapped up inside the packaging feel like they'll never go away.,cable,positive,negative,0.998439371585846,positive -> negative
+"Great sound, noise cancelation, and look.",sound,neutral,positive,0.9993783235549928,neutral -> positive
+Setup DirecTV inputs (SAT/Cable) -,cable,positive,neutral,0.999209761619568,positive -> neutral
+"Since it's a Bluetooth item, it's wireless and has no cords to get in the way.",bluetooth,positive,neutral,0.9958511590957642,positive -> neutral
+"As for movies purchased from Amazon, so far I've been unable to stream mine, because Amazon movies require the ""Unbox"" app.",app,positive,negative,0.988852083683014,positive -> negative
+I wished this camera did not pushed the envelope in the 30x optical zoom.,camera,neutral,negative,0.6708635687828064,neutral -> negative
+I HAVE TO LEAVE MY EXPENSIVE C-CRANE 2-E RADIO ON ALL THE TIME AND USE THE VOLUME CONTROL TO LISTEN… RATHER THAN TRY... TO USE THE FAULTY ON OFF C-CRANE RADIO SWITCH...,volume,positive,neutral,0.989953637123108,positive -> neutral
+"The bands have a rubbery material on the underside of the elastic that grips the surface beneath it, so the tablet does not slide around inside the cover or want to fall out.",case,positive,neutral,0.9990373849868774,positive -> neutral
+The video playback freezes when it switches from infrared to the normal camera.,camera,negative,neutral,0.9988239407539368,negative -> neutral
+"It adds weight and bulk, and apparently--judging from other reviewers' statements--the manufacturer recommends against using the case for anything but display (no carrying the case around in a backpack, tote, or bag).",case,positive,negative,0.9984785914421082,positive -> negative
+I’m used to silent keys so it’s a little annoying.,keyboard,positive,negative,0.9986236095428468,positive -> negative
+"After the film is applied, there is no loss of sensitivity in the touch screen.",display,positive,neutral,0.9991006851196288,positive -> neutral
+I haven’t received the obnoxious “cord not supported by this devise” message.. Hallelujah!,cable,positive,negative,0.9958577752113342,positive -> negative
+"But you can also copy files off the tablet without using wireless or connecting the tablet via USB cable to another PC, because the tablet/keyboard combo is a full-fledged Win8.1 computer.",cable,positive,neutral,0.9987738728523254,positive -> neutral
+When the snug fit loosens the pwoer and volume buttons slide under the cover *sigh* There are extra cutouts that make no sense,volume,positive,negative,0.9986655712127686,positive -> negative
+as front channels the sound was good but not full enough for what we were going for.,sound,positive,neutral,0.99439138174057,positive -> neutral
+The 6 foot cord would be better as a 12 foot cord.,cable,positive,neutral,0.9986427426338196,positive -> neutral
+We started using a digital camera in 2003.,camera,positive,neutral,0.9989966750144958,positive -> neutral
+The charging light is visible as there is an opening for it built into the case so you can see when it is light up red or green and the charging port is accessible,charging,positive,neutral,0.9991323351860046,positive -> neutral
+I verified that the volume was on max on both the speaker and the Nexus 7.,volume,negative,neutral,0.9991957545280457,negative -> neutral
+Printing from one app might be simple while printing from the next might require a printer plug in to run through.,app,negative,neutral,0.9992651343345642,negative -> neutral
+"but that's understandable, due to battery.",battery,positive,neutral,0.9989596605300904,positive -> neutral
+"The doughnut lodged behind a ribbon cable in the back of the drive, where I couldn't see it to fish it out.",cable,positive,negative,0.9731061458587646,positive -> negative
+They keep them fairly short so they fit in the mini charger box.,charging,positive,neutral,0.9991055130958556,positive -> neutral
+"Let’s be honest, these are a wired pair of headphones, connected to a cell phone!",headphones,positive,neutral,0.9969881176948548,positive -> neutral
+">800x600 or lower resolution images only will let you load the higher images put will skip over them the when playing >JPG format only >Display is 6.4""W x 4.8""H: frame is 8 inches; >Memory Card: supported MMC, SD, SDHC (max. 16GB) >USB flash drive >Auto Boot Time: Set the timer for the photo frame to turn on automatically >Auto Off Time: Set the timer for the photo frame to turn off automatically >Display Ratio: 3 options = Crop to Fill, Full Screen and Fit to Screen >Slideshow time: 6 options = 5 seconds, 15 sec, 30 sec, 60 sec, 5 minutes, and 15 min >Transition effects: 11 choices = mosaic, cross, rectangle, spiral, none, random, block, split, reveal, blind, tiny lines After several hours using the controls I have to say I didn't find them user friendly.",display,positive,neutral,0.9992658495903016,positive -> neutral
+Some of the cheapest glass lenses are 4 times the cost of this.,price,neutral,negative,0.9980486631393432,neutral -> negative
+The first thing I noticed about this unit is the size.,size,positive,neutral,0.9976067543029784,positive -> neutral
+"I am not a lead-foot particularly, I just love electronics; but there are times when the lull of the road will cause excessive speed.",performance,positive,neutral,0.9924103021621704,positive -> neutral
+"The headphone jack on her phone broke several months ago, so she has not been able to listen to music using headphones for a while.",headphones,positive,negative,0.9985154271125792,positive -> negative
+"When she puts phone on the stand and FaceTimed me, the sound is aweful.",sound,negative,positive,0.999148726463318,negative -> positive
+"but that is due to the small size, otherwise, music, audio books, phone calls were all decent and clear 4.",sound,neutral,positive,0.9103204011917114,neutral -> positive
+"I don't like matte-finish screen protectors at all, so I don't mind this.",display,positive,neutral,0.9166104197502136,positive -> neutral
+Captures and transmits audio.,sound,positive,neutral,0.9991355538368224,positive -> neutral
+"They are ok, but definitely not the best I have used, even at this price.",price,positive,negative,0.9984703660011292,positive -> negative
+Key action travel is a bit too far which sometimes results in hitting two keys instead of one (more typing errors),keyboard,neutral,negative,0.998653769493103,neutral -> negative
+Early days to know if these keep their charge over time.,charging,positive,neutral,0.9990890026092528,positive -> neutral
+If FM and recording performance isn't important to you then you should add one star to this review.,performance,negative,neutral,0.9728289842605592,negative -> neutral
+This cover replaced my old Kindle cover.,case,positive,neutral,0.994208574295044,positive -> neutral
+"Like the sound quality, but I can't fit it through my case.",case,positive,negative,0.9844416975975036,positive -> negative
+Not realizing we replaced our Mac computers charge cord shortly after the initial purchase (puppy incident- chewed through it in told!),charging,neutral,negative,0.9826658964157104,neutral -> negative
+I didn't think to consider if it would fit over a Kindle in a slim-fit hard case but it does.,case,positive,neutral,0.9976911544799804,positive -> neutral
+the only problem is having to charge this and it takes so long ive never been able to completely charge this it keeps going down and it takes all day to just to get to 35 %,charging,positive,negative,0.998441994190216,positive -> negative
+"This is good, but the keyboard must be removed from the case and placed in front of the iPad when the case is unfolded.",keyboard,neutral,negative,0.9954428672790528,neutral -> negative
+We also used it with the rosetta software: works well.,software,neutral,positive,0.9993478655815125,neutral -> positive
+*I feel hub should’ve come with a hard case for protection with the purchase..!!,case,positive,negative,0.7369810938835144,positive -> negative
+"Also, the power cord is designed so that it sits flat on the floor so that it's barely noticeable.",cable,positive,neutral,0.9978356957435608,positive -> neutral
+"I don't usually like ear bud style headphones because they don't stay in place very well, even if just sitting.",headphones,positive,negative,0.9984914064407348,positive -> negative
+"The battery charge lasts only seconds after being unplugged from your computer or your car, so there is not time enough to make any settings with it unplugged.",charging,positive,neutral,0.998582124710083,positive -> neutral
+With my in ear earbuds I couldnt hear decently at full volume.,volume,positive,negative,0.9986482262611388,positive -> negative
+The Folio's Bluetooth keyboard is powered by the solar cells on the front of the case.,keyboard,positive,neutral,0.999111831188202,positive -> neutral
+so I didn't have to add the new usb nib - it's inside the battery area in case you do need to use it.,battery,positive,neutral,0.9986701011657716,positive -> neutral
+While it is louder then speaker I was using the sound quality is not as good as expected for a DeWalt product.,sound,positive,negative,0.9987046718597412,positive -> negative
+"Yes, it would be wonderful if we had some of those nice, padded, over the ear earphones, but we don't.",headphones,positive,negative,0.990675449371338,positive -> negative
+"you do not have have to hit the keys, just touch it.",keyboard,positive,neutral,0.9988818764686584,positive -> neutral
+The case has a faux-suede lining that makes it feel just a tiny bit luxurious.,case,positive,neutral,0.9829784035682678,positive -> neutral
+it lasted 92 days......spend the extra 10 bucks and get a better cord,cable,negative,neutral,0.7677986025810242,negative -> neutral
+"Download the app to my smartphone Install app on smart phone create profile on Netvu confirm email have phone scan the UPC on the camera to register have the NetVu camera scan the UPC code image on the app on my phone the app autoloaded the name of my router and asked for the password I loaded the password and it searched, and searched and searched.",camera,positive,neutral,0.9992613196372986,positive -> neutral
+i hate that my PC screen and tablets and phone is constantly icky from my fingers they invented touch screen ..,display,positive,negative,0.998062551021576,positive -> negative
+I have no idea how much this will cost since no price is listed at this time.,price,positive,negative,0.99838387966156,positive -> negative
+"However, all of the control buttons are accessible, and the off-center cutouts don't faze the rear-facing camera or the light-level sensor.",camera,positive,neutral,0.9986608028411864,positive -> neutral
+"First of all, the 2 camera system that we were using, allowed the cameras to be charged with a cable.",camera,positive,neutral,0.999103844165802,positive -> neutral
+Charging cord is a little short.,charging,positive,negative,0.9984251260757446,positive -> negative
+This is a really pretty case but it's a pain to get the ipad in and out of the case and it doesn't really stand up because it's kind of poorly designed.,case,neutral,negative,0.9984434247016908,neutral -> negative
+"The keyboard is surrounded by a raised edge, to prevent scratches or damage to the iPad screen.",keyboard,positive,neutral,0.9991996884346008,positive -> neutral
+"The reason is that I am often listening to music on one computer; when I wanted to switch to another computer to do some work, the sound stopped, obviously because now I was on another computer that didn't have music playing.",sound,positive,negative,0.5759572982788086,positive -> negative
+"Cons: Will trip a inbuilt breaker if overloaded which with my laptop happens a lot, cooling fan is extremely loud and is about as loud as my gaming laptops cooling fans, it is fairly large so it isn't pocketable, can take around five or six hours to fully charge, or more depending on what wall adapter you use, has enough juice to recharge my laptop only twice, and can only run my laptop for around 15 to 20 minutes.",charging,positive,negative,0.9979202151298524,positive -> negative
+"My only beef is that it doesn't clip into my camera properly, but that's very possibly my camera's fault, or mine, as I am a professional idiot.",camera,positive,negative,0.9983335137367249,positive -> negative
+"First of all, you need a monitor, keyboard and mouse to use with the computer, since it doesn't come with these items.",keyboard,positive,neutral,0.9992613196372986,positive -> neutral
+I don’t understand the other reviewers’ dislike of the Acer keyboard and mouse.,keyboard,positive,negative,0.9983578324317932,positive -> negative
+"Some classes have discs to use or install software, super inconvenient with that.",software,neutral,negative,0.9985287189483644,neutral -> negative
+"Like the sound quality, but I can't fit it through my case.",sound,positive,negative,0.9762747883796692,positive -> negative
+"After using just her i-phone for the first 2 episodes, she decided she wanted to use a mic for the task.",microphone,positive,neutral,0.9992274045944214,positive -> neutral
+I can't say anything to the sound,sound,positive,neutral,0.838099479675293,positive -> neutral
+"With this particular Verbatim keyboard, the keys are totally silent when depressed and released.",keyboard,positive,neutral,0.9982054233551024,positive -> neutral
+"The flash doesn't seem adequate, so this is probably a camera best used outdoors or in the daytime.",camera,neutral,negative,0.9922375082969666,neutral -> negative
+Clear but not a much bass as other earbuds I've used.,headphones,positive,neutral,0.9988923668861388,positive -> neutral
+"Great when you have to charge a bunch of stuff... which is not exactly why I purchased it, but discovered it wouldn't work for that (a user problem)...",charging,positive,neutral,0.8027768135070801,positive -> neutral
+The volume doesn't go up high enough to use it in a more noisy environment.,volume,positive,neutral,0.9852036237716676,positive -> neutral
+Not so much for charging cords.,charging,positive,negative,0.9977241158485411,positive -> negative
+i was hoping for a much better result .. as far as resisting fingerprints ... thats not true and i was hoping for more of a &#34;sliding&#34; affect like i read all over that this product does the instructions say to put it on the cloth and not directly on the screen i cant help but wonder if that would make a difference ... it has a &#34;bit&#34; of a slide but not what i was hoping for,display,neutral,negative,0.9981243014335632,neutral -> negative
+Made of lightweight aluminum material-,weight,positive,neutral,0.9974320530891418,positive -> neutral
+"Keyboard is recognized with a different adapter; therefore, the problem appears to be the adapter.",keyboard,negative,neutral,0.6305546760559082,negative -> neutral
+"Regarding the software/app, my first mistake was to try to begin using the watch via the Android cellphone app.",app,negative,neutral,0.9961750507354736,negative -> neutral
+Charge fast Haven't had long enough to comment on battery life.,battery,positive,neutral,0.9985727071762084,positive -> neutral
+"The one setup problem I ran into, was that the adapter's LED light for the Ethernet cable connection (required for the Powerline to work) didn't light up when I first connected my wireless printer.",cable,positive,negative,0.9985435009002686,positive -> negative
+The only other con is the price.,price,positive,negative,0.9983898401260376,positive -> negative
+"The keyboard is cute, but I've only used it a couple of times, and two keys have already broken off and will not snap back on.",keyboard,neutral,negative,0.9984531402587892,neutral -> negative
+#NAME?,volume,negative,neutral,0.9991955161094666,negative -> neutral
+Even though they are good with not dropping them they somehow find a way to crack the screen protectors.,display,positive,neutral,0.9971094727516174,positive -> neutral
+"Speed could be impacted by a lot of things, so maybe shouldn't blame the device.",performance,positive,neutral,0.7010254263877869,positive -> neutral
+It cam with a microphone and the sound is better cranked up.,sound,neutral,positive,0.9992796778678894,neutral -> positive
+"The black beanbag is about the size of a large cantaloupe, and is just heavy enough that it cannot be easily knocked over or knocked off a table.",size,positive,neutral,0.999029278755188,positive -> neutral
+I'm really not an audiophile and some kind of audio engineer but I want to have my music playing nice and crisp which these headphones are capable of the ldac transmission to 96khz to 32bit processing,sound,positive,neutral,0.9560340642929076,positive -> neutral
+"The other problem is that the connection hides under a little bendable rubber piece and my USB ports are recessed, so I couldn't bend the rubber enough to easily insert it.",connection,positive,negative,0.998485028743744,positive -> negative
+Down loaded the software from the internet (also comes with a CD you can run to up load to the hardrive).,software,positive,neutral,0.9992700219154358,positive -> neutral
+"Note: these do not want to fit larger size cable.. not, the cord that is found on a regular set of string lights.",cable,positive,neutral,0.9820364117622375,positive -> neutral
+"When you turn the car on, it starts out by showing you the view of the what the camera is seeing at that moment.",camera,positive,neutral,0.9991963505744934,positive -> neutral
+"Microsoft has some newer versions of this keyboard, but I don't think they are an improvement and they are expensive.",keyboard,positive,negative,0.9986880421638488,positive -> negative
+"The app finds the printer, helps you connect it to your home network, and takes you through the process of loading paper, installing two ink cartridges, and aligning the copier.",app,positive,neutral,0.999123990535736,positive -> neutral
+"The keyboard does feel cheap, and I wouldn't want to use it as a computer keyboard.",keyboard,positive,negative,0.9984079003334044,positive -> negative
+There were stick drawings in the center and if I rolled my fingers from left to right it scrolled around the screen.,display,negative,neutral,0.9992545247077942,negative -> neutral
+"But for someone like me, who wants it for sightseeing/traveling, I think a more conventional camera bag would have done the trick better.",camera,positive,neutral,0.9953125715255736,positive -> neutral
+"There's a Bluetooth Memory reset by turning the speaker on, pressing and holding the power button for 10 seconds and then pairing the device with the iPhone.",bluetooth,negative,neutral,0.9992008805274964,negative -> neutral
+"Because of this, I haven't really trusted this dock to charge up the official batteries and instead only using the ones it comes with.",charging,positive,negative,0.998063027858734,positive -> negative
+"Your cable or, wire must be little and thin to fit this clip-",cable,positive,neutral,0.9992539286613464,positive -> neutral
+"And the cover is almost useless as a stand for hands-free viewing--there is only one viewing angle, and the stand collapses easily.",case,neutral,negative,0.9981117248535156,neutral -> negative
+This is a nice tablet but it only uses the amazon app store.,app,neutral,positive,0.9974574446678162,neutral -> positive
+She already had Kindle in a rubber cover but it fits all of it and her charger.,charging,positive,neutral,0.99885094165802,positive -> neutral
+There is a bit of buzz in the sound and they seem to distort at moderately high levels.,sound,neutral,negative,0.7628910541534424,neutral -> negative

@@ -1,0 +1,90 @@
+# ========================================================
+# SMARTREVIEW AI - GITIGNORE
+# ========================================================
+
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json.bak
+
+# Production Builds & Temp
+dist/
+*/dist/
+.vite/
+.vite-temp/
+*/.vite-temp/
+
+# Python & Virtual Environments
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Large model checkpoints and binary weights (> 100MB)
+*.safetensors
+*.pt
+*.bin
+*.onnx
+checkpoint-*/
+*/checkpoint-*/
+ai-engine/models/roberta_absa/
+ai-engine/models/roberta_absa_human/
+ai-engine/models/roberta_absa_hybrid/
+ai-engine/models/roberta_absa_improved/
+ai-engine/models/roberta_absa_weighted/
+
+# Huge raw datasets (> 50MB)
+*.jsonl
+ai-engine/datasets/Electronics.jsonl
+ai-engine/datasets/reviews_cleaned.csv
+ai-engine/datasets/reviews_aspects.csv
+ai-engine/datasets/reviews_working.csv
+
+# Archives and logs
+*.zip
+*.tar.gz
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

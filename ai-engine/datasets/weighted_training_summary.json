@@ -1,0 +1,40 @@
+{
+    "experiment": "Class-Weighted RoBERTa",
+    "model": "roberta-base",
+    "seed": 42,
+    "training_records": 210,
+    "validation_records": 45,
+    "test_records": 45,
+    "class_distribution": {
+        "negative": 34,
+        "neutral": 27,
+        "positive": 149
+    },
+    "class_weights": {
+        "negative": 2.058823585510254,
+        "neutral": 2.592592477798462,
+        "positive": 0.46979865431785583
+    },
+    "validation_results": {
+        "eval_loss": 1.1040829420089722,
+        "eval_accuracy": 0.7333333333333333,
+        "eval_precision": 0.4166666666666667,
+        "eval_recall": 0.478494623655914,
+        "eval_macro_f1": 0.44541995902838744,
+        "eval_runtime": 0.097,
+        "eval_samples_per_second": 463.998,
+        "eval_steps_per_second": 61.866,
+        "epoch": 5.0
+    },
+    "test_results": {
+        "eval_loss": 1.1822185516357422,
+        "eval_accuracy": 0.6888888888888889,
+        "eval_precision": 0.34962406015037595,
+        "eval_recall": 0.39732142857142855,
+        "eval_macro_f1": 0.37142857142857144,
+        "eval_runtime": 0.0886,
+        "eval_samples_per_second": 508.068,
+        "eval_steps_per_second": 67.742,
+        "epoch": 5.0
+    }
+}

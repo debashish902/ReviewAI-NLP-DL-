@@ -1,0 +1,26 @@
+{
+    "experiment": "SmartReview AI Confidence Calibration",
+    "model_directory": "E:\\SmartReview_Final\\SmartReview AI\\ai-engine\\models\\roberta_absa_improved",
+    "temperature": 1.334727168083191,
+    "labels": [
+        "negative",
+        "neutral",
+        "positive"
+    ],
+    "max_length": 128,
+    "input_format": "tokenizer(sentence, aspect)",
+    "validation_records": 45,
+    "test_records": 45,
+    "validation_accuracy_before": 0.7777777777777778,
+    "validation_accuracy_after": 0.7777777777777778,
+    "validation_log_loss_before": 0.8081701397895813,
+    "validation_log_loss_after": 0.7248320579528809,
+    "validation_ece_before": 0.1811489313840866,
+    "validation_ece_after": 0.136165589094162,
+    "test_accuracy_before": 0.6444444444444445,
+    "test_accuracy_after": 0.6444444444444445,
+    "test_log_loss_before": 1.1177420616149902,
+    "test_log_loss_after": 0.957014799118042,
+    "test_ece_before": 0.2267501950263977,
+    "test_ece_after": 0.17061464488506317
+}

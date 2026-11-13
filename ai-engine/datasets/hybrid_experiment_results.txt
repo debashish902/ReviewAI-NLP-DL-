@@ -1,0 +1,12 @@
+SMARTREVIEW AI - EXPERIMENT 4
+HYBRID HUMAN + PSEUDO-LABELED RoBERTa
+
+Training records: 8941
+Validation records: 45
+Test records: 45
+
+Best Validation Macro F1: 0.4166
+Test Accuracy: 0.5778
+Test Precision: 0.5444
+Test Recall: 0.6295
+Test Macro F1: 0.5163

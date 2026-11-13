@@ -1,0 +1,47 @@
+SMARTREVIEW AI - EXPERIMENT 6
+IMPROVED HYBRID RoBERTa TRAINING RESULTS
+======================================================================
+
+Model Name           : cardiffnlp/twitter-roberta-base-sentiment-latest
+Max Length           : 128
+Batch Size           : 8
+Weight Decay         : 0.01
+Label Smoothing      : 0.1
+Warmup Ratio         : 0.1
+Max Grad Norm        : 1.0
+
+Phase 1 Epochs       : 2 (LR: 3e-05)
+Phase 2 Epochs       : 3 (LR: 1e-05)
+Phase 2 Patience     : 2
+
+Phase 1 Training Rows: 836
+Phase 2 Training Rows: 9477
+Validation Rows      : 45
+Test Rows            : 45
+
+Best Validation F1   : 0.6085
+
+Test Loss            : 1.1177
+Test Accuracy        : 0.6444
+Test Precision       : 0.4988
+Test Recall          : 0.4960
+Test Macro F1        : 0.4962
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.57      0.57      0.57         7
+     neutral       0.12      0.17      0.14         6
+    positive       0.80      0.75      0.77        32
+
+    accuracy                           0.64        45
+   macro avg       0.50      0.50      0.50        45
+weighted avg       0.67      0.64      0.66        45
+
+
+Confusion Matrix:
+             Predicted
+             Neg  Neu  Pos
+Actual Neg    4    1    2
+Actual Neu    1    1    4
+Actual Pos    2    6   24

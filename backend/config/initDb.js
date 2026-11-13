@@ -36,6 +36,15 @@ async function initDatabase() {
         `);
 
         console.log("[DB] Schema verification completed successfully.");
+
+        // Check if database already has products; if empty, seed automatically!
+        const countRes = await pool.query("SELECT COUNT(*) FROM products");
+        const prodCount = parseInt(countRes.rows[0].count, 10);
+        if (prodCount === 0) {
+            console.log("[DB] Database is empty. Seeding modern flagship catalog...");
+            const { seedModernCatalog } = require("../seed_modern_catalog");
+            await seedModernCatalog();
+        }
     } catch (err) {
         console.error("[DB] Error initializing database tables:", err.message);
     }

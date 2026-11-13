@@ -658,8 +658,14 @@ async function seedModernCatalog() {
     process.exitCode = 1;
   } finally {
     client.release();
-    pool.end();
+    if (require.main === module) {
+      pool.end();
+    }
   }
 }
 
-seedModernCatalog();
+if (require.main === module) {
+  seedModernCatalog();
+}
+
+module.exports = { seedModernCatalog };

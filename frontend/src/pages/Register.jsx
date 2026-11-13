@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { API_URL } from "../config/api";
 
 function Register({ onRegister, onBackToLogin, theme, toggleTheme }) {
   const [username, setUsername] = useState("");
@@ -43,7 +44,7 @@ function Register({ onRegister, onBackToLogin, theme, toggleTheme }) {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/auth/register",
+        `${API_URL}/api/auth/register`,
         {
           method: "POST",
           headers: {

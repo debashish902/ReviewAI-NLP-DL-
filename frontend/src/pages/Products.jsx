@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-
-const API_URL = "http://localhost:5000";
+import { API_URL } from "../config/api";
 
 function Products({ onSelectProduct, user, onLogout, onNavigateHome, theme, toggleTheme }) {
   const [products, setProducts] = useState([]);

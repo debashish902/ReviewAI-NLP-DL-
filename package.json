@@ -1,0 +1,25 @@
+{
+  "name": "smartreview-ai",
+  "version": "1.0.0",
+  "description": "SmartReview AI — E-Commerce Review & Aspect-Based Sentiment Analysis Platform",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/server.js",
+    "seed": "node backend/seed_modern_catalog.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "absa",
+    "nlp",
+    "sentiment-analysis",
+    "roberta",
+    "react",
+    "express",
+    "postgresql"
+  ],
+  "author": "Debasheesh Tripathy",
+  "license": "Apache-2.0"
+}

@@ -1,7 +1,14 @@
 const app = require("./app");
+const initDatabase = require("./config/initDb");
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-    console.log(`SmartReview AI Backend running on Port ${PORT}`);
-});
+async function startServer() {
+    await initDatabase();
+
+    app.listen(PORT, () => {
+        console.log(`🚀 SmartReview AI Backend running on Port ${PORT}`);
+    });
+}
+
+startServer();

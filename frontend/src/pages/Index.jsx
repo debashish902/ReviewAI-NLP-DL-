@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-
-const API_URL = "http://localhost:5000";
+import { API_URL } from "../config/api";
 
 function Index({ user, onNavigateToProducts, onSelectProduct, onLogout, theme, toggleTheme }) {
   const [featuredProducts, setFeaturedProducts] = useState([]);
